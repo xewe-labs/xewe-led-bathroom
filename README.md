@@ -1,3 +1,5 @@
+> Archived. Part of the XeWe LED family; see https://github.com/xewe-labs/xewe-led-os.
+
 # XeWe LED - Bathroom — Alexa and HomeKit lights around a bathroom mirror
 
 Personal project (XeWe smart-home lights) · 2024-03 · Solo: Max Dokukin · Status: Completed
@@ -9,7 +11,7 @@ Personal project (XeWe smart-home lights) · 2024-03 · Solo: Max Dokukin · Sta
 Smarthome Lights ESP for the bathroom: ESP8266 firmware that connects an addressable LED strip around a bathroom mirror to the
 Apple HomeKit and Amazon Alexa smart-home systems. The LEDs have two modes: solid colour, and Perlin fade (slow noise-driven waves
 of neighbouring hues). The sketch was adapted on 2024-03-01 from the two-strip desk and ceiling version of the same firmware
-(Smarthome-Lights-ESP, now [xewe-labs/xewe-led-desk](https://github.com/xewe-labs/xewe-led-desk)) to drive a single 181-LED strip.
+(Smarthome-Lights-ESP, now [xewe-labs/led-desk](https://github.com/xewe-labs/led-desk)) to drive a single 181-LED strip.
 Colour, brightness, mode and on/off state are stored in EEPROM, so the lights come back as they were after a power cut.
 
 ## Highlights
@@ -78,6 +80,6 @@ Serial output at 115200 baud logs every setter call (`LED_CONRTROLLER_DEBUG` in 
 - Photos: [whole mirror](static/media/thumbnails/full_size.webp), [strip along the mirror edge](static/media/resources/IMG_5858.webp), [strip and power supply](static/media/resources/IMG_5526.webp)
 - [todo.md](todo.md)
 - Image from the original Smarthome-Lights-ESP README: [IMG_1931](https://github.com/xeweva/Smarthome-Lights-ESP/assets/54597813/85e34b70-14e2-4198-ad93-fff34ed6da69)
-- Predecessor (desk and ceiling lights): [xewe-labs/xewe-led-desk](https://github.com/xewe-labs/xewe-led-desk)
+- Predecessor (desk and ceiling lights): [xewe-labs/led-desk](https://github.com/xewe-labs/led-desk)
 - Related: XeWe LED OS, modular ESP32 firmware for addressable LEDs with HomeKit, Alexa and persistent settings — [project page](https://maxdokukin.com/projects/xewe-led-os) · [github.com/xewe-labs/xewe-led-os](https://github.com/xewe-labs/xewe-led-os)
 - Project page: [maxdokukin.com/projects/xewe-led-bathroom](https://maxdokukin.com/projects/xewe-led-bathroom)
